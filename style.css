@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    font-family: "Poppins-Regular", sans-serif;
+}
+.headerimg {
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("bg_header.jpg");
+    background-size: cover;
+    position: relative;
+}
+.headertitle {
+    content: url("logo_header.png");
+    position: absolute;
+    bottom: 40%;
+    left: 37%;
+}
+nav {
+    display: flex;
+    background-color: #fec88a;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.menunav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #9d3c36;
+}
+.search-bar {
+    /* width: 250px;
+    height: 30px;
+    padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #9d3c36;
+}
+.researchbar {
+    border-radius: 5px;
+    border: 2px solid #9d3c36;
+}
+.menuoverall {
+    display: flex;
+    justify-content: space-evenly;
+}
+.full {
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.firstsection {
+    background-color: #3c3c3c;
+    width: 60%;
+}
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("soupe.jpg");
+    height: 225px;
+    width: 300px;
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("salade.jpg");
+    height: 225px;
+    width: 300px;
+}
+.image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("dessert.jpg");
+    height: 225px;
+    width: 300px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #3c3c3c;
+}
+.border {
+    color: #fec88a;
+    padding: 20px;
+    border-bottom: 2px solid #fec88a;
+    border-top: 2px solid #fec88a;
+    width: 70%;
+    text-align: center;
+}
+.redborder {
+    color: #fec88a;
+    padding: 20px;
+    border-bottom: 2px solid #9d3c36;
+    border-top: 2px solid #9d3c36;
+    text-align: center;
+}
+.complexsection {
+    background-color: #3c3c3c;
+    height: 60vh;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.tacos {
+    background-image: url("tacos.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.bigmenu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.leftsection {
+    display: flex;
+    flex-direction: column;
+}
+.receip1 {
+    background-color: #c2c57e;
+    text-align: center;
+}
+.receip1::before {
+    content: url("toque.png");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.about {
+    background-image: url("me.jpg");
+    height: 380px;
+    width: 302px;
+}
+.norep {
+    mask-repeat: no-repeat;
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+.redbuton {
+    background-color: #9d3c36;
+    color: white;
+}
