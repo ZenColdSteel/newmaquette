@@ -57,6 +57,7 @@ nav {
 .menuoverall {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .full {
     background-color: #3c3c3c;
@@ -66,8 +67,12 @@ nav {
     gap: 20px;
 }
 .firstsection {
+    display: flex;
     background-color: #3c3c3c;
     width: 60%;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .image1 {
     display: flex;
@@ -101,10 +106,10 @@ body {
 }
 .border {
     color: #fec88a;
-    padding: 20px;
+    padding: 8px;
     border-bottom: 2px solid #fec88a;
     border-top: 2px solid #fec88a;
-    width: 70%;
+    width: 76%;
     text-align: center;
 }
 .redborder {
@@ -143,31 +148,38 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #c2c57e;
     text-align: center;
-    padding: 3%;
-    gap: 5%x;
+    padding: 5%;
+    gap: 10px;
+    position: relative;
 }
 .receip1::before {
     content: url("toque.png");
     height: 10%;
     width: 10%;
     position: absolute;
-    bottom: 41%;
-    left: 42%;
+    bottom: 106%;
+    left: 44%;
 }
+
 .about {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
+    color: #715750;
     background-image: url("me.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 472px;
-    width: 100%;
     gap: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .norep {
     mask-repeat: no-repeat;
@@ -176,11 +188,7 @@ body {
     font-family: "Poppins-Regular";
     src: url("/fonts/Poppins-Regular.ttf");
 }
-/* .redbuton {
-    background-color: #9d3c36;
-    color: white;
-    text-align: center;
-} */
+
 .rightsection {
     display: flex;
     flex-direction: column;
@@ -212,8 +220,9 @@ body {
     align-items: center;
     background-color: #c2c57e;
     text-align: center;
-    padding: 5%;
-    gap: 5%;
+    padding: 10%;
+    gap: 10px;
+    position: relative;
 }
 .tacos3 {
     background-image: url("carrot.jpg");
@@ -228,8 +237,9 @@ body {
     align-items: center;
     background-color: #c2c57e;
     text-align: center;
-    padding: 5%;
-    gap: 5%;
+    padding: 10%;
+    gap: 10px;
+    position: relative;
 }
 
 .rightmenu {
@@ -249,16 +259,16 @@ body {
     height: 100px;
     width: 100px;
     position: absolute;
-    bottom: 43%;
-    left: 36%;
+    bottom: 89%;
+    left: 33%;
 }
 .receip3::before {
     content: url("toque.png");
     height: 100px;
     width: 100px;
     position: absolute;
-    bottom: 43%;
-    left: 36%;
+    bottom: 89%;
+    left: 33%;
 }
 .beer {
     display: flex;
@@ -270,7 +280,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    border: 10px solid #fff;
 }
 .cofee {
     display: flex;
@@ -299,7 +308,7 @@ body {
     height: 100px;
     width: 100px;
     position: absolute;
-    bottom: 36%;
+    bottom: 87%;
     left: 42%;
 }
 .receip4 {
@@ -310,7 +319,8 @@ body {
     background-color: #c2c57e;
     text-align: center;
     padding: 5%;
-    gap: 5%;
+    gap: 10px;
+    position: relative;
 }
 .lastmenu {
     display: flex;
@@ -328,8 +338,9 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
+    padding-bottom: 40px;
 }
 .button-container {
     display: flex;
@@ -357,68 +368,68 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     width: 100%;
 }
 .ligne1 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     height: 50%;
     width: 100%;
 }
 .ligne2 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     height: 50%;
     width: 100%;
 }
 
 .image4 {
     background-image: url("hamburger_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .image5 {
     background-image: url("wrap_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .image6 {
     background-image: url("gateau_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .image7 {
     background-image: url("pancake_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .image8 {
     background-image: url("oeufs_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .image9 {
     background-image: url("poisson_small.jpg");
-    height: 300px;
-    width: 35%;
+    height: 210px;
+    width: 31%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -467,6 +478,7 @@ footer {
     width: fit-content;
     padding: 5px;
     color: white;
+    font-size: 16px;
 }
 .laststep {
     display: flex;
@@ -478,4 +490,13 @@ footer {
     align-items: center;
     color: #fec88a;
     background-color: #9d3c36;
+}
+h3 {
+    color: #9d3c36;
+}
+.blackcolor {
+    color: white;
+}
+.size1 {
+    font-size: 20px;
 }
